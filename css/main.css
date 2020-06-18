@@ -1,0 +1,205 @@
+/* common styling starts here */
+:root {
+  --main-bg-color: #1ee411;
+  --sec-bg-color: #22274126;
+  --ter-bg-color: #47507f26;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.clr {
+  clear: both;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+.bg-2 {
+  background-color: var(--sec-bg-color);
+  color: black;
+}
+.bg-1 {
+  background-color: var(--ter-bg-color);
+  color: black;
+}
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 3px;
+  color: white;
+  text-decoration: none;
+  background-color: #366804;
+}
+.box-big {
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+.box-medium {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+  padding: 1rem;
+}
+h1 {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+.f-small {
+  font-size: 0.8rem;
+}
+
+/* common styling  ends here*/
+.width100 {
+  width: 100%;
+  min-height: 100%;
+}
+#navbar {
+  background-color: black;
+  overflow: auto;
+}
+.logo {
+  float: left;
+}
+.logo img {
+  width: 3rem;
+  border-radius: 50%;
+  height: 3rem;
+}
+.nav {
+  float: right;
+}
+.nav ul li {
+  float: left;
+  list-style: none;
+}
+.nav ul li a {
+  display: block;
+  padding: 1.1rem;
+  color: white;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+.nav ul li.active {
+  background-color: var(--main-bg-color);
+}
+
+#showcase {
+  background-image: url(../images/showcase.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  background-position: center center;
+}
+.showcase-content {
+  text-align: center;
+  padding: 30vh 0;
+}
+
+.showcase-content h1 {
+  margin-bottom: 1rem;
+}
+.showcase-content h1,
+.showcase-content p {
+  line-height: 1.6rem;
+}
+.box-content {
+  background-color: black;
+  color: white;
+  padding: 8rem 1rem;
+  width: 100%;
+  text-align: center;
+}
+.section1 {
+  overflow: auto;
+  height: auto;
+}
+.section3 {
+  overflow: auto;
+}
+.box-medium p {
+  margin-top: 1rem;
+}
+.box-medium h4 {
+  margin-top: 1rem;
+}
+#footer {
+  background-color: black;
+  overflow: auto;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}
+#contact-form {
+  overflow: auto;
+  margin: 20px 0;
+}
+#contact-form h1,
+#contact-form p {
+  line-height: 3rem;
+}
+.form-group label {
+  display: block;
+  line-height: 2rem;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: var(--main-bg-color);
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 1rem 1rem;
+}
+.form-group textarea {
+  height: 6rem;
+}
+#section1 {
+  padding: 2rem 0;
+}
+#section1 {
+  line-height: 2rem;
+}
+#section1 h1 {
+  margin-bottom: 1rem;
+}
+#section1 img {
+  width: 60%;
+  height: 60%;
+  display: block;
+  text-align: center;
+  border-radius: 50%;
+  margin: auto;
+}
+#testimonials h1 {
+  text-align: center;
+}
+#testimonials {
+  background: url("../images/testimonial_background.jpg") no-repeat center
+    center/cover;
+  margin: 3rem 0;
+  padding: 3rem 0;
+}
+.testimonial img {
+  width: 75px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 1rem;
+}
+.testimonial {
+  background-color: var(--ter-bg-color);
+  color: black;
+  margin: 2rem 0rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}

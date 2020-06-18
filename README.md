@@ -1,2 +1,4 @@
 # html_css_saas_project1
-static website design : html &amp; CSS with float , without flex
+
+this website uses basic concept of float , without using flex and grid.
+Images has been used from pexels.com
